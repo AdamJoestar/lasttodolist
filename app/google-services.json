@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276571901479",
+    "project_id": "noteskita",
+    "storage_bucket": "noteskita.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276571901479:android:7ddd920a052c0788530802",
+        "android_client_info": {
+          "package_name": "com.example.lasttodolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMj-YX1_arnK_uEv9TTyF533m5hEEGewo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
