@@ -43,7 +43,8 @@ class SignInFragment : Fragment() {
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
                         Toast.makeText(requireContext(), "Authentication Success.", Toast.LENGTH_SHORT).show()
-                        // Navigate to the next fragment (e.g., MainFragment)
+                        // Navigate to HomeFragment
+                        findNavController().navigate(R.id.action_signInFragment_to_homeFragment)
                     } else {
                         // If sign in fails, display a message to the user.
                         Toast.makeText(requireContext(), "Authentication failed.", Toast.LENGTH_SHORT).show()
