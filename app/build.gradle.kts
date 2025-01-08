@@ -37,6 +37,7 @@ android {
 
     buildFeatures{
         viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -54,6 +55,7 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.runtime.livedata)
     implementation(libs.androidx.room.common)
+    implementation(libs.firebase.messaging.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

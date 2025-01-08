@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="text_size_task">16sp</dimen>
+    <dimen name="padding_item">8dp</dimen>
+</resources>
